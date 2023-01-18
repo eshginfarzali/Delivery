@@ -1,7 +1,7 @@
 let order=prompt('Sifarsi zehmet olmasa bu formada daxil edin: kfc/fri/2', 'kfc/fri/2')
  
 let arr= order.toLocaleLowerCase().split('/')
-console.log(arr)
+
 
 function delivery(product, restuartn, money){
 
