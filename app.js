@@ -3,7 +3,7 @@
 function delivery(){
     let order=prompt('Sifarsi zehmet olmasa bu formada daxil edin: kfc/fri/2', 'kfc/fri/2')
  
-let arr= order.toLocaleLowerCase().split('/')
+let arr= order.toLowerCase().split('/')
 
 
 if((arr[0]==='mcdonalds' || arr[0]==='kfc' || arr[0]==='burger king')&&  (arr[1]==='fri'|| arr[1]==='burger' || arr[1]==='twister') &&  +arr[2]>=2) {
